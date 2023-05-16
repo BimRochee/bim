@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root{
+    --second-bg-color: #323946;
+    --text-color: white;
+    --main-color: yellow;
+}
+
+body {
+    background-color: black;
+  }
+
+  .header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: #ffcc00;
+    animation: slide-in 2s ease-out;
+    
+  }
+  
+  .logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+    color: var(--main-color);
+    display: flex;
+    text-decoration: none;
+}
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .rubiks-offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slide-in 2s ease-out;
+  }
+
+  .rubiks-offer {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: #ffcc00;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+
+  .rubiks-offer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .rubiks-offer p {
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    background-color: #e6b800;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    background-color: yellow;
+    animation: slide-in 2.5s ease-out;
+  }
+
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
